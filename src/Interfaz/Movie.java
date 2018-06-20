@@ -117,8 +117,8 @@ public class Movie extends JFrame {
         Director= new JTextField();
         Exibicion = new JTextField();
         
-        si = new JRadioButton("si", true);
-        no = new JRadioButton("no");
+        si = new JRadioButton("Exibiendose", true);
+        no = new JRadioButton("Fuera de sala");
         resultados = new JTable();
         buscar = new JButton("Buscar");
         insertar = new JButton("Insertar");

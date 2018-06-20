@@ -11,10 +11,11 @@ package Modelo;
  */
 public class Filtro {
 
+
+
     private int id;
     private String nombre;
     private int AñoEstreno;
-    private String numeroPelicula;
     private String Director;  
     private String PaisProcedencia;
     private String Clasificacion;
@@ -23,7 +24,7 @@ public class Filtro {
     public Filtro(){
     }
 
-    public Filtro(int id, String nombre, int AñoEstreno, String Director, String PaisProcedencia, boolean Exibicion, String numeroPelicula) {
+    public Filtro(int id, String nombre, int AñoEstreno, String Director, String PaisProcedencia, boolean Exibicion) {
         this.id = id;
         this.nombre = nombre;
         this.AñoEstreno = AñoEstreno;
@@ -32,7 +33,7 @@ public class Filtro {
         this.Exibicion = Exibicion;
     }
 
-    public Filtro(String nombre, int AñoEstreno, String Director, String PaisProcedencia, String Clasificacion, boolean Exibicion, String NumeroPelicula) {
+    public Filtro(String nombre, int AñoEstreno, String Director, String PaisProcedencia, String Clasificacion, boolean Exibicion) {
         this.nombre = nombre;
         this.AñoEstreno = AñoEstreno;
         this.Director = Director;
@@ -75,14 +76,6 @@ public class Filtro {
 
     public String getPaisProcedencia() {
         return PaisProcedencia;
-    }
-    
-    public String getNumeroPelicula() {
-        return numeroPelicula;
-    }
-
-    public void setNumeroPelicula(String numeroPelicula) {
-        this.numeroPelicula = numeroPelicula;
     }
 
     public void setPaisProcedencia(String PaisProcedencia) {

@@ -42,6 +42,16 @@ public class Filtro {
         this.Exibicion = Exibicion;
     }
     
+    public Filtro(int id, String nombre, int AñoEstreno, String Director, String PaisProcedencia, String Clasificacion, boolean Exibicion) {
+        this.id = id;
+        this.nombre = nombre;
+        this.AñoEstreno = AñoEstreno;
+        this.Director = Director;
+        this.PaisProcedencia = PaisProcedencia;
+        this.Clasificacion = Clasificacion;
+        this.Exibicion = Exibicion;
+    }
+    
     public String getNombre() {
         return nombre;
     }

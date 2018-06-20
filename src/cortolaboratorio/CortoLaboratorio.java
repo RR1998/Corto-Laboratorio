@@ -5,6 +5,8 @@
  */
 package cortolaboratorio;
 
+import Interfaz.Movie;
+
 /**
  *
  * @author LN710Q
@@ -15,7 +17,7 @@ public class CortoLaboratorio {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+            new Movie().setVisible(true);
     }
     
 }
